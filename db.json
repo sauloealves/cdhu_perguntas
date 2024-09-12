@@ -15,8 +15,14 @@
           "tipo_pergunta": "Opções",
           "obrigatorio": true,
           "opcoes": [
-            "Masculino",
-            "Feminino"
+            {
+              "text": "Masculino",
+              "value" :"M"
+            },
+            {
+              "text": "Feminino",
+              "value": "F"
+            }
           ]
         },
         {
@@ -25,8 +31,14 @@
           "tipo_pergunta": "Opções",
           "obrigatorio": true,
           "opcoes": [
-            "Terreno A",
-            "Terreno B"
+            {
+              "text": "Terreno A",
+              "value": "A"
+            },
+            {
+              "text": "Terreno B",
+              "value": "B"
+            }
           ]
         }
       ]
@@ -46,9 +58,18 @@
           "tipo_pergunta": "Opções",
           "obrigatorio": true,
           "opcoes": [
-            "Ensino Fundamental",
-            "Ensino Médio",
-            "Ensino Superior"
+            {
+              "text": "Ensino Fundamental",
+              "value": "1"
+            },
+            {
+              "text": "Ensino Médio",
+              "value": "2"
+            },
+            {
+              "text": "Superior",
+              "value": "3"
+            },
           ]
         },
         {
@@ -57,9 +78,18 @@
           "tipo_pergunta": "Opções",
           "obrigatorio": true,
           "opcoes": [
-            "Azul",
-            "Verde",
-            "Castanho"
+            {
+              "text": "Azul",
+              "value": "Azul"
+            },
+            {
+              "text": "Verde",
+              "value": "Verde"
+            },
+            {
+              "text": "Castanho",
+              "value": "Castanhoi"
+            }
           ]
         }
       ]
