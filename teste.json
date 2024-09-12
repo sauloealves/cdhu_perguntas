@@ -1,0 +1,68 @@
+{
+  "sessao": [
+    {
+      "nomeSessao": "sessao1",
+      "perguntas": [
+        {
+          "pergunta": "Área do Terreno",
+          "ordem": 1,
+          "tipo_pergunta": "Texto Livre",
+          "obrigatorio": true
+        },
+        {
+          "pergunta": "Sexo",
+          "ordem": 2,
+          "tipo_pergunta": "Opções",
+          "obrigatorio": false,
+          "opcoes": [
+            "masculino",
+            "feminino"
+          ]
+        },
+        {
+          "pergunta": "Tipo de Terreno",
+          "ordem": 3,
+          "tipo_pergunta": "Opções",
+          "obrigatorio": false,
+          "opcoes": [
+            "Terreno A",
+            "Terreno B"
+          ]
+        }
+      ]
+    },
+    {
+      "nomeSessao": "sessao2",
+      "perguntas": [
+        {
+          "pergunta": "Idade",
+          "ordem": 1,
+          "tipo_pergunta": "Número",
+          "obrigatorio": false
+        },
+        {
+          "pergunta": "Escolaridade",
+          "ordem": 2,
+          "tipo_pergunta": "Opções",
+          "obrigatorio": false,
+          "opcoes": [
+            "Ensino Fundamental",
+            "Ensino Médio",
+            "Ensino Superior"
+          ]
+        },
+        {
+          "pergunta": "Cor dos Olhos",
+          "ordem": 3,
+          "tipo_pergunta": "Opções",
+          "obrigatorio": false,
+          "opcoes": [
+            "Azul",
+            "Verde",
+            "Castanho"
+          ]
+        }
+      ]
+    }
+  ]
+}
