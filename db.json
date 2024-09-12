@@ -13,11 +13,7 @@
           "pergunta": "Sexo",
           "ordem": 2,
           "tipo_pergunta": "Opções",
-          "obrigatorio": true,
-          "opcoes": [
-            "masculino",
-            "feminino"
-          ]
+          "obrigatorio": true
         },
         {
           "pergunta": "Tipo de Terreno",
