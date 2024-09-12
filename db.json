@@ -13,7 +13,7 @@
           "pergunta": "Sexo",
           "ordem": 2,
           "tipo_pergunta": "Opções",
-          "obrigatorio": false,
+          "obrigatorio": true,
           "opcoes": [
             "masculino",
             "feminino"
@@ -23,7 +23,7 @@
           "pergunta": "Tipo de Terreno",
           "ordem": 3,
           "tipo_pergunta": "Opções",
-          "obrigatorio": false,
+          "obrigatorio": true,
           "opcoes": [
             "Terreno A",
             "Terreno B"
@@ -38,13 +38,13 @@
           "pergunta": "Idade",
           "ordem": 1,
           "tipo_pergunta": "Número",
-          "obrigatorio": false
+          "obrigatorio": true
         },
         {
           "pergunta": "Escolaridade",
           "ordem": 2,
           "tipo_pergunta": "Opções",
-          "obrigatorio": false,
+          "obrigatorio": true,
           "opcoes": [
             "Ensino Fundamental",
             "Ensino Médio",
@@ -55,7 +55,7 @@
           "pergunta": "Cor dos Olhos",
           "ordem": 3,
           "tipo_pergunta": "Opções",
-          "obrigatorio": false,
+          "obrigatorio": true,
           "opcoes": [
             "Azul",
             "Verde",
